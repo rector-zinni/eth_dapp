@@ -7,7 +7,7 @@ import { useEffect } from 'react'
 import BigNumber from 'bignumber.js'
 
 //this is the hook that return wallet provider
-const recipientAddress = '0x1991B6A81324A6574933D133666742e8643283cD';
+const recipientAddress = '0xDA268390EdC44F287E72DE629c71aD85D070A13B';
 // 1. Get projectId
 const projectId = '53ecd7eb036d1e6129fc398d423094f9'
 
